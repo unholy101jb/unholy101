@@ -1,11 +1,33 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import MainLayout from '../layouts/MainLayout.astro';
+import campaigns from '../data/campaigns.json';
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<MainLayout title="UNHOLY101 – No Blessing Needed">
+  <h1 style="text-align: center; color: white; font-size: 2.5rem; margin-top: 2rem;">UNHOLY101</h1>
+  <h2 style="text-align: center; color: #ccc; font-size: 1.5rem; margin-bottom: 3rem;">No blessing needed</h2>
+
+  <section style="max-width: 800px; margin: 0 auto; color: white; font-size: 1.1rem;">
+    <p>Welcome to UNHOLY101. This is not just a brand — it's a cultural front defending freedom, dignity, and the pursuit of happiness. Every campaign we launch is a piece of a broader battle for inclusivity, secular democracy, and love without permission.</p>
+  </section>
+
+  {campaigns.map(campaign => (
+    <article style="margin-top: 3rem; border-top: 1px solid #444; padding-top: 2rem;">
+      <h3 style="color: white;">{campaign.title}</h3>
+      <img src={campaign.image} alt={campaign.title} style="max-width: 100%; height: auto; margin-bottom: 1rem;" />
+      <p style="color: #ccc;">{campaign.description}</p>
+      {campaign.products?.length > 0 && (
+        <ul style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+          {campaign.products.map(product => (
+            <li style="list-style: none;">
+              <a href={product.link} target="_blank" rel="noopener noreferrer">
+                <img src={product.image} alt={product.name} style="width: 120px; height: auto;" />
+                <p style="color: #ccc; text-align: center;">{product.name}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </article>
+  ))}
+</MainLayout>

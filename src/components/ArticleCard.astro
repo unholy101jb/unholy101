@@ -1,0 +1,24 @@
+---
+const { image, title, date, body, products } = Astro.props;
+---
+
+<article style="background: #111; padding: 1.5rem; border-radius: 1rem; color: white; max-width: 600px; margin: 2rem auto;">
+  <img src={image} alt={title} style="width: 100%; border-radius: 0.5rem;" />
+  <h2 style="margin-top: 1rem; font-size: 1.5rem;">{title}</h2>
+  <p style="font-size: 0.9rem; color: #bbb;"><em>{date}</em></p>
+  <p style="margin-top: 1rem; font-size: 1rem;">{body}</p>
+
+  {products && products.length > 0 && (
+    <div style="margin-top: 1rem;">
+      <h3>Products:</h3>
+      <ul>
+        {products.map((product) => (
+          <li>
+            <img src={product.image} alt={product.name} style="width: 80px; vertical-align: middle;" />
+            <a href={product.url} target="_blank" style="margin-left: 0.5rem; color: #9df;">{product.name}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</article>

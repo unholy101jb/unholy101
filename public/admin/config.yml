@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "campaigns"
+    label: "Campaigns"
+    label_singular: "Campaign"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "src/data/campaigns.json"
+        label: "Campaign List"
+        name: "campaign_list"
+        format: "json"
+        fields:
+          - label: "Campaigns"
+            name: "campaigns"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Products"
+                name: "products"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Image", name: "image", widget: "string" }
+                  - { label: "Link", name: "link", widget: "string" }

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "christ-love",
+    "title": "Christ Was About Love, Remember?",
+    "image": "/campaign1.jpeg",
+    "description": "Recalling the embrace of love and tolerance in Christian teachings.",
+    "products": [
+      {
+        "name": "T-Shirt",
+        "image": "/products/christ-love-shirt.jpg",
+        "link": "https://tu-link-a-la-remera.com"
+      },
+      {
+        "name": "Hat",
+        "image": "/products/christ-love-hat.jpg",
+        "link": "https://tu-link-al-gorro.com"
+      }
+    ]
+  },
+  {
+    "id": "unholy101",
+    "title": "What Is UNHOLY101?",
+    "image": "/logo-card.png",
+    "description": "An introduction to our mission of promoting inclusivity, tolerance, and rebellion.",
+    "products": []
+  },
+  {
+    "id": "be-proud",
+    "title": "Be Proud, Be Loud, Be You",
+    "image": "/campaigns/be-proud.jpeg",
+    "description": "Celebrate who you are with bold visibility and unapologetic pride.",
+    "products": [
+      {
+        "name": "Sticker",
+        "image": "/products/be-proud-sticker.jpg",
+        "link": "https://tu-link-al-sticker.com"
+      }
+    ]
+  },
+  {
+    "id": "no-taxation",
+    "title": "No taxation without diversity",
+    "image": "https://imagesofoldhawaii.com/no-taxation-without-representation/#jp-carousel-35966",
+    "description": "no rights for all, no taxation",
+    "products": []
+  }
+]

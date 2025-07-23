@@ -1,0 +1,64 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+---
+
+<style>
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+  }
+
+  .grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 250px;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+</style>
+
+<MainLayout title="Campaigns">
+  <h1>Campaigns for a World Where Everyone Is Free and Equal</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="/campaign1.jpeg" alt="Christ Was About Love T-shirt" />
+      <h2>Christ Was About Love, Remember?</h2>
+      <p>Recalling the embrace of love and tolerance in Christian teachings.</p>
+    </div>
+    <div class="card">
+      <img src="/campaign2.jpg" alt="Christ Was About Love Hat" />
+      <h2>Christ Was About Love Hat Campaign</h2>
+      <p>A call to remember love and reject hate in Christ’s name.</p>
+    </div>
+    <div class="card">
+      <img src="/logo-card.png" alt="Unholy101 Logo" />
+      <h2>What Is Unholy101?</h2>
+      <p>An introduction to our mission of promoting inclusivity, tolerance, and rebellion.</p>
+    </div>
+  </div>
+</MainLayout>

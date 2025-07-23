@@ -44,6 +44,120 @@
     "description": "The American experiment began with the cry: 'No taxation without representation.' But before we demand representation, we must demand inclusion. Citizenship is not just about voting—it’s about visibility. Dignity. Safety. Recognition.\n\nThis campaign reminds us that taxation implies an obligation, and obligations require legitimacy. If representation is a prerequisite for taxation, then inclusion is a prerequisite for representation. A government that fails to protect its citizens from aggression and discrimination betrays their representation—and thus forfeits the moral right to impose on them.\n\nThis is not a protest. It’s a proclamation of belonging.",
     "products": [
       {
+        "name": "No Taxation Without Inclusion – Black Tee",
+        "image": "https://i.etsystatic.com/48423581/r/il/7a93d3/5621951354/il_794xN.5621951354_pjqm.jpg",
+        "link": "https://www.etsy.com/listing/4340185674/no-taxation-without-inclusion-political?ref=shop_home_active_1"
+      },
+      {
+        "name": "No Taxation Without Inclusion – Ash Tee",
+        "image": "https://i.etsystatic.com/48423581/r/il/ae42ae/5621952012/il_794xN.5621952012_6xkp.jpg",
+        "link": "https://www.etsy.com/listing/4340177222/no-taxation-without-inclusion-political?ref=shop_home_active_2"
+      }
+    ]
+  }
+][
+  {
+    "id": "christ-love",
+    "title": "Christ Was About Love, Remember?",
+    "image": "/campaign1.jpeg",
+    "description": "Recalling the embrace of love and tolerance in Christian teachings.",
+    "products": [
+      {
+        "name": "T-Shirt",
+        "image": "/products/christ-love-shirt.jpg",
+        "link": "https://tu-link-a-la-remera.com"
+      },
+      {
+        "name": "Hat",
+        "image": "/products/christ-love-hat.jpg",
+        "link": "https://tu-link-al-gorro.com"
+      }
+    ]
+  },
+  {
+    "id": "unholy101",
+    "title": "What Is UNHOLY101?",
+    "image": "/logo-card.png",
+    "description": "An introduction to our mission of promoting inclusivity, tolerance, and rebellion.",
+    "products": []
+  },
+  {
+    "id": "be-proud",
+    "title": "Be Proud, Be Loud, Be You",
+    "image": "/campaigns/be-proud.jpeg",
+    "description": "Celebrate who you are with bold visibility and unapologetic pride.",
+    "products": [
+      {
+        "name": "Sticker",
+        "image": "/products/be-proud-sticker.jpg",
+        "link": "https://tu-link-al-sticker.com"
+      }
+    ]
+  },
+  {
+    "id": "no-taxation",
+    "title": "No Taxation Without Inclusion",
+    "image": "https://i.imgur.com/QYOOrmA.jpeg",
+    "description": "The American experiment began with the cry: 'No taxation without representation.' But before we demand representation, we must demand inclusion. Citizenship is not just about voting—it’s about visibility. Dignity. Safety. Recognition.\n\nThis campaign reminds us that taxation implies an obligation, and obligations require legitimacy. If representation is a prerequisite for taxation, then inclusion is a prerequisite for representation. A government that fails to protect its citizens from aggression and discrimination betrays their representation—and thus forfeits the moral right to impose on them.\n\nThis is not a protest. It’s a proclamation of belonging.",
+    "products": [
+      {
+        "name": "No Taxation Without Inclusion – Black Tee",
+        "image": "https://i.etsystatic.com/48423581/r/il/7a93d3/5621951354/il_794xN.5621951354_pjqm.jpg",
+        "link": "https://www.etsy.com/listing/4340185674/no-taxation-without-inclusion-political?ref=shop_home_active_1"
+      },
+      {
+        "name": "No Taxation Without Inclusion – Ash Tee",
+        "image": "https://i.etsystatic.com/48423581/r/il/ae42ae/5621952012/il_794xN.5621952012_6xkp.jpg",
+        "link": "https://www.etsy.com/listing/4340177222/no-taxation-without-inclusion-political?ref=shop_home_active_2"
+      }
+    ]
+  }
+][
+  {
+    "id": "christ-love",
+    "title": "Christ Was About Love, Remember?",
+    "image": "/campaign1.jpeg",
+    "description": "Recalling the embrace of love and tolerance in Christian teachings.",
+    "products": [
+      {
+        "name": "T-Shirt",
+        "image": "/products/christ-love-shirt.jpg",
+        "link": "https://tu-link-a-la-remera.com"
+      },
+      {
+        "name": "Hat",
+        "image": "/products/christ-love-hat.jpg",
+        "link": "https://tu-link-al-gorro.com"
+      }
+    ]
+  },
+  {
+    "id": "unholy101",
+    "title": "What Is UNHOLY101?",
+    "image": "/logo-card.png",
+    "description": "An introduction to our mission of promoting inclusivity, tolerance, and rebellion.",
+    "products": []
+  },
+  {
+    "id": "be-proud",
+    "title": "Be Proud, Be Loud, Be You",
+    "image": "/campaigns/be-proud.jpeg",
+    "description": "Celebrate who you are with bold visibility and unapologetic pride.",
+    "products": [
+      {
+        "name": "Sticker",
+        "image": "/products/be-proud-sticker.jpg",
+        "link": "https://tu-link-al-sticker.com"
+      }
+    ]
+  },
+  {
+    "id": "no-taxation",
+    "title": "No Taxation Without Inclusion",
+    "image": "https://i.imgur.com/QYOOrmA.jpeg",
+    "description": "The American experiment began with the cry: 'No taxation without representation.' But before we demand representation, we must demand inclusion. Citizenship is not just about voting—it’s about visibility. Dignity. Safety. Recognition.\n\nThis campaign reminds us that taxation implies an obligation, and obligations require legitimacy. If representation is a prerequisite for taxation, then inclusion is a prerequisite for representation. A government that fails to protect its citizens from aggression and discrimination betrays their representation—and thus forfeits the moral right to impose on them.\n\nThis is not a protest. It’s a proclamation of belonging.",
+    "products": [
+      {
         "name": "No Taxation Without Inclusion Black Tee",
         "image": "https://i.etsystatic.com/48423581/r/il/7a93d3/5621951354/il_794xN.5621951354_pjqm.jpg",
         "link": "https://www.etsy.com/listing/4340185674/no-taxation-without-inclusion-political?ref=shop_home_active_1"
